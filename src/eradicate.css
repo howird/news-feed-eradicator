@@ -214,12 +214,7 @@ html:not([data-nfe-enabled='false']) {
 }
 
 /* Reddit Home | Popular | All */
-html:not([data-nfe-enabled='false'])
-	#SHORTCUT_FOCUSABLE_DIV
-	> :not([class^='SubredditVars-r-'])
-	.scrollerItem,
-.SubredditVars-r-all .scrollerItem,
-.SubredditVars-r-popular .scrollerItem {
+.scrollerItem {
 	opacity: 0 !important;
 	pointer-events: none !important;
 }
